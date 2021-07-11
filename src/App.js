@@ -13,8 +13,8 @@ function App() {
       <header className="App-header">
         <Header />
         <Switch>
-          <Route exact path="/myprojects" component={Projects}/>
           <Route exact path="/aboutme" component={About}/>
+          <Route exact path="/myprojects" component={Projects}/>
         </Switch>        
         
         <Footer />
