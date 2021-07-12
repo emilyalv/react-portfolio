@@ -1,17 +1,3 @@
-// import React from "react";
-// re
-
-// export default function Nav() {
-//     return (
-//         <div className="nav">           
-//            <div className="navBtns">
-//                 <a href="/aboutme">About Me</a>
-//                 <a href="/myprojects">My Projects</a>
-//             </div> 
-
-//         </div>
-//     )
-// }
 
 import React from 'react';
 import Button from '@material-ui/core/Button';
