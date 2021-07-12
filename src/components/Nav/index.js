@@ -27,8 +27,8 @@ export default function Nav() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}><a href="/aboutme/">About Me</a></MenuItem>
-        <MenuItem onClick={handleClose}><a href="/myprojects/">My Projects</a></MenuItem>
+        <MenuItem onClick={handleClose}><a href="/#/aboutme/">About Me</a></MenuItem>
+        <MenuItem onClick={handleClose}><a href="/#/myprojects/">My Projects</a></MenuItem>
         <MenuItem onClick={handleClose}><a href="#">Resumé</a></MenuItem>
       </Menu>
     </div>
