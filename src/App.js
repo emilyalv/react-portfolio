@@ -16,9 +16,9 @@ function App() {
         <Header />
         <Switch>
           <div>
-        <Route exact path={`${process.env.PUBLIC_URL}/`} component={About}/>
-          <Route exact path={`${process.env.PUBLIC_URL}/aboutme`}  component={About}/>
-          <Route exact path={`${process.env.PUBLIC_URL}/myprojects`}  component={Projects}/>
+        <Route exact path="/" component={About}/>
+          <Route exact path="/aboutme/" component={About}/>
+          <Route exact path="/myprojects/" component={Projects}/>
           {/* <Route component={NotFound} status={404}/> */}
           </div>
         </Switch>      
