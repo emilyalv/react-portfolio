@@ -15,10 +15,12 @@ function App() {
       <header className="App-header">
         <Header />
         <Switch>
-        <Route exact path="/#/" component={About}/>
-          <Route exact path="/#/aboutme" component={About}/>
-          <Route exact path="/#/myprojects" component={Projects}/>
-          <Route component={NotFound} status={404}/>
+          <div>
+        <Route exact path="/" component={About}/>
+          <Route exact path="/aboutme/" component={About}/>
+          <Route exact path="/myprojects/" component={Projects}/>
+          {/* <Route component={NotFound} status={404}/> */}
+          </div>
         </Switch>      
         
         <Footer />
